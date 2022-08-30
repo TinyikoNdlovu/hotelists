@@ -17,8 +17,11 @@ function Booking(){
                 <a href="#">Contact</a>
                 </nav>
 
-                <p className="text">Get a discount of 20% when you book both standard and deluxe suites!!!!</p>
             </div>
+
+            <div className="text-message">
+                <p className="text">Get a discount of 20% when you <br /> book both standard and deluxe <br /> suites!!!!</p>
+                </div>
 
             <div className="input-fields">
             <input type="text" id="name" name="name" placeholder="Check-In Date" />
@@ -36,11 +39,11 @@ function Booking(){
 
                 <thead>
                     <tr className="table-header">
-                    <td>Room Type</td>
-                    <td >Sleep</td>
-                    <td>Price per night</td>
-                    <td>Services</td>
-                    <td>Amount</td>
+                    <th scope="col" style={{textAlign: "center"}}>Room Type</th>
+                    <th scope="col" style={{textAlign: "center"}}>Sleep</th>
+                    <th scope="col" style={{textAlign: "center"}}>Price per night</th>
+                    <th scope="col" style={{textAlign: "center"}}>Services</th>
+                    <th scope="col" style={{textAlign: "center"}}>Amount</th>
                     </tr>
                 </thead>
                 <tbody>
