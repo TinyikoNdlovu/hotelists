@@ -3,14 +3,16 @@
     height: 100vh;
 }
 .page{
-    display: flex;
     background-image: url('../images/landscape.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100vw;
-    height: 90vh;
-    justify-content: space-between;
+    height: 90vh;  
+}
 
+.logo-links{
+    display: flex;
+    justify-content: space-between;
 }
 
 .logo-img{
@@ -34,20 +36,26 @@
 }
 
 .text-message{
-    margin-top: 2%;
+    margin-top: 30%;
+    margin-right: 20%;
 }
 
 .text{
-    color: #111;
+    color: #fff;
 }
 
 .input-fields{
+    height: 50px;
+    width: 50%;
+    background-color: red;
     margin-top: 30px;
     margin-left: 15%;
 }
 
 .input-fields input{
+    margin-top: 10px;
     margin-left: 13px;
+    align-self: center;
 }
 
 .input-fields button{

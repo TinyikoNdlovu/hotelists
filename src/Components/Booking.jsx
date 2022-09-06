@@ -7,35 +7,39 @@ function Booking(){
     return(
         <div className="container">
             <div className="page">
-                <div className="logo-img">
-                    <img src={hotelLogoImg} />
-                </div>
-                <nav className="nav-links">
-                <a href="#">Home</a>
-                <a href="#">Booking</a>
-                <a href="#">Checkout</a>
-                <a href="#">Contact</a>
-                </nav>
+                <div className="logo-links">
+                    <div className="logo-img">
+                        <img src={hotelLogoImg} />
+                    </div>
+                    <nav className="nav-links">
+                        <a href="#">Home</a>
+                        <a href="#">Booking</a>
+                        <a href="#">Checkout</a>
+                        <a href="#">Contact</a>
+                    </nav>
 
-            </div>
-
-            <div className="text-message">
-                <p className="text">Get a discount of 20% when you <br /> book both standard and deluxe <br /> suites!!!!</p>
                 </div>
 
-            <div className="input-fields">
-            <input type="text" id="name" name="name" placeholder="Check-In Date" />
-            <input type="text" id="name" name="name" placeholder="Check-Out Date" />
-            <input type="text" id="name" name="name" placeholder="One-Night Stay" />
+                <div className="text-message">
+                    <p className="text">Get a discount of 20% when you <br /> book both standard and deluxe <br /> suites!!!!</p>
+                </div>
 
-            <button type="submit" id="btn">Search</button>
+                <div className="input-fields">
+                    <input type="text" id="name" name="name" placeholder="Check-In Date" />
+                    <input type="text" id="name" name="name" placeholder="Check-Out Date" />
+                    <input type="text" id="name" name="name" placeholder="One-Night Stay" />
+                    
+                    <button type="submit" id="btn">Search</button>
+                </div>
+
                 
+
             </div>
 
             <h1>Room Booking</h1>
             <div className="tables">
             
-            <table className="booking-table">
+            <table className="booking-table" style={{paddingTop:'20%', marginLeft:'1%'}}>
 
                 <thead>
                     <tr className="table-header">
